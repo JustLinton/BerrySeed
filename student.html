@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <script src="manager.js"></script>
+</head>
+
+<body>
+
+<input type="text" name="" id="num1" value="输入学号">
+<input type="text" name="" id="name1" value="输入姓名">
+<input type="button" value="查询" onclick="f()">
+
+
+<div>
+<p id="snum">--</p>
+<p id="num">--</p>
+<p id="name">--</p>
+<p id="score">--</p>
+</div>
+
+<div style="visibility: hidden;" id="boxnameholder"> test</div>
+<div style="visibility: hidden;" id="snumholder"> test</div>
+<div style="visibility: hidden;" id="numholder"> test</div>
+<div style="visibility: hidden;" id="nameholder"> test</div>
+<div style="visibility: hidden;" id="scoreholder"> test</div>
+<script>
+
+
+function f(){
+    for(k=1;k<=4;k++){
+        getnum();
+    var num =document.getElementById('num1').value;
+    getinfo();
+var oHead = document.getElementsByTagName('HEAD').item(0); 
+ var oScript= document.createElement("script"); 
+ oScript.type = "text/javascript"; 
+ oScript.src="http://www.rivaple.top/berrysrc/index.json?callback=indexDemo"; 
+ oHead.appendChild(oScript); 
+    }
+
+}
+
+function loadJs(url,callback){
+    var script=document.createElement('script');
+    script.type="text/javascript";
+    if(typeof(callback)!="undefined"){
+    if(script.readyState){
+    script.onreadystatechange=function(){
+     if(script.readyState == "loaded" || script.readyState == "complete"){
+     script.onreadystatechange=null;
+     callback();
+     }
+    }
+    }else{
+    script.onload=function(){
+     callback();
+    }
+    }
+    }
+    script.src=url;
+    document.body.appendChild(script);
+    }
+   
+   
+   function getnum(){
+
+   loadJs("http://www.rivaple.top/berrysrc/0.js",function(){
+    
+    });
+
+   
+   }
+
+
+</script>
+
+
+
+</body>
+<footer>
+        
+</footer>
+</html>

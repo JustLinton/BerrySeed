@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div>
+<p id="test1">yy</p>
+    <input type="text" name="" id="new1">
+    <input type="button" value="test,e" id="submit1" onclick="LS()">
+
+ </div>
+<script type="text/javascript">  
+
+
+
+function LS(){
+
+num=document.getElementById('new1').value;
+
+}
+
+function loadJs(url,callback){
+ var script=document.createElement('script');
+ script.type="text/javascript";
+ if(typeof(callback)!="undefined"){
+ if(script.readyState){
+ script.onreadystatechange=function(){
+  if(script.readyState == "loaded" || script.readyState == "complete"){
+  script.onreadystatechange=null;
+  callback();
+  }
+ }
+ }else{
+ script.onload=function(){
+  callback();
+ }
+ }
+ }
+ script.src=url;
+ document.body.appendChild(script);
+ }
+ loadJs("new.js",function(){
+ alert('done');
+ });
+
+
+function getname(){
+
+var name1 = document.getElementById('new1').value
+
+}
+
+
+    function indexDemo(result){
+
+       console.log(result.stu1[name].name)     
+    }
+
+
+
+
+
+ 
+ 
+</script>  
+
+
+
+ 
+<script type="text/javascript" src="index.json?callback=indexDemo"></script>
+ 
+ 
+</body>
+ 
+ 
+</html>

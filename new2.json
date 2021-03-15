@@ -1,0 +1,183 @@
+indexDemo(
+    {
+        "name": "Shumeistud",
+        "url": "http://www.berrysdu.com",
+        "page": 88,
+        "isNonProfit": true,
+        "address": {
+            "street": "1.",
+            "city": "2",
+        },
+        "stu": [
+            {
+                "snumber": "1",
+                "number": "201800202001",
+                "name": "马明佐",
+                "score": "0"
+            },
+            {
+                "snumber": "2",
+                "number": "201800202056",
+                "name": "孙浩然",
+                "score": "0"
+            },
+            {
+                "snumber": "3",
+                "number": "201800220020",
+                "name": "张以诺",
+                "score": "0"
+            },
+            {
+                "snumber": "4",
+                "number": "201800250001",
+                "name": "苏恬",
+                "score": "0"
+            },
+            {
+                "snumber": "5",
+                "number": "201800250006",
+                "name": "丁子星",
+                "score": "0"
+            },
+            {
+                "snumber": "6",
+                "number": "201800260028",
+                "name": "肖辉宇",
+                "score": "0"
+            },
+            {
+                "snumber": "7",
+                "number": "201900302001",
+                "name": "董润",
+                "score": "0"
+            },
+            {
+                "snumber": "8",
+                "number": "201900302002",
+                "name": "李雪岩",
+                "score": "0"
+            },
+            {
+                "snumber": "9",
+                "number": "201900302003",
+                "name": "王军学",
+                "score": "0"
+            },
+            {
+                "snumber": "10",
+                "number": "201900302004",
+                "name": "王姝婷",
+                "score": "0"
+            },
+            {
+                "snumber": "11",
+                "number": "201900302005",
+                "name": "武舒柯",
+                "score": "0"
+            },
+            {
+                "snumber": "12",
+                "number": "201900302006",
+                "name": "赵姣姣",
+                "score": "0"
+            },
+            {
+                "snumber": "13",
+                "number": "201900302007",
+                "name": "陈然",
+                "score": "0"
+            },
+            {
+                "snumber": "14",
+                "number": "201900302008",
+                "name": "颜珲",
+                "score": "0"
+            },
+            {
+                "snumber": "15",
+                "number": "201900302009",
+                "name": "王珊珊",
+                "score": "0"
+            },
+            {
+                "snumber": "16",
+                "number": "201900302010",
+                "name": "刘仡",
+                "score": "0"
+            },
+            {
+                "snumber": "17",
+                "number": "201900302011",
+                "name": "陈翔",
+                "score": "0"
+            },
+            {
+                "snumber": "18",
+                "number": "201900302012",
+                "name": "黄宇",
+                "score": "0"
+            },
+            {
+                "snumber": "19",
+                "number": "201900302013",
+                "name": "肖俊锦",
+                "score": "0"
+            },
+            {
+                "snumber": "20",
+                "number": "201900302014",
+                "name": "刘凌璇",
+                "score": "0"
+            },
+            {
+                "snumber": "21",
+                "number": "201900302015",
+                "name": "吴少琪",
+                "score": "0"
+            },
+            {
+                "snumber": "22",
+                "number": "201900302016",
+                "name": "俞江宁",
+                "score": "0"
+            },
+            {
+                "snumber": "23",
+                "number": "201900302017",
+                "name": "李佳泽",
+                "score": "0"
+            },
+            {
+                "snumber": "24",
+                "number": "201900302018",
+                "name": "孔秋实",
+                "score": "0"
+            },
+            {
+                "snumber": "25",
+                "number": "201900302019",
+                "name": "王厚润",
+                "score": "0"
+            },
+            {
+                "snumber": "26",
+                "number": "201900302020",
+                "name": "赵海彤",
+                "score": "0"
+            },
+            {
+                "snumber": "27",
+                "number": "201900302021",
+                "name": "王春清",
+                "score": "0"
+            },
+            {
+                "snumber": "28",
+                "number": "201900302022",
+                "name": "姜九鸣",
+                "score": "0"
+            }
+        ]
+        
+    }
+     )

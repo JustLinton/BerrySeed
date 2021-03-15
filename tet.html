@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+ <input type="button" name="" id="" onclick="neww()">
+ 
+<script type="text/javascript">  
+
+
+ function neww(){
+    function indexDemo(result){
+      //回调函数名称(indexDemo)，需要与 src 中一致，而且要与文件地址中名一致。jsonp格式 名称({})
+    //不然无法获取到对应的文件
+       console.log(result)     //打印 indexDemo.json 中的数据
+    }
+ 
+ }
+ 
+ 
+</script>  
+ 
+<!--jsonp中 需要注意的是
+     <script  src="jq.json?callback=loa"></script>
+ src ? 之前为文件地址，? 之后为回调函数callback名称，
+回调函数可以简写为 cb ,  然后 回调函数 名称要与  文件中的名称一致
+可以在 对应的文件名中看下，如，jq.json?callback=loa,jq.json的  名字为  loa-->
+ 
+ 
+<script type="text/javascript" src="index.json?callback=indexDemo"></script>
+ 
+ 
+</body>
+ 
+ 
+</html>

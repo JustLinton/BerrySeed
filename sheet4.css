@@ -1,0 +1,80 @@
+.tabs {
+    position: relative;
+    min-height: 320px;
+    clear: both;
+    margin: 25px auto;
+    max-width: 600px;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    padding: 5px 0;
+    margin: 0 25px;
+    display: inline-block;
+    border-bottom: 5px solid #fff;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.tab-content {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 20px 5px 20px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+    -webkit-box-shadow: inset 0px 15px 10px -15px rgba(59, 59, 59, 0.5);
+    -moz-box-shadow: inset 0px 15px 10px -15px rgba(59, 59, 59, 0.5);
+    box-shadow: inset 0px 15px 10px -15px rgba(59, 59, 59, 0.5);
+}
+
+.tab-content > * {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translateY(-15%);
+    -moz-transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -o-transform: translateY(-15%);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+
+[type=radio]:checked ~ label {
+    color: #ff6d69;
+    border-bottom-color: #f5d926;
+    z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tab-content {
+    z-index: 1;
+}
+
+[type=radio]:checked ~ label ~ .tab-content > * {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+/* Only here for demo purposes */
+body {
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
